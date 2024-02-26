@@ -82,6 +82,21 @@
         .navbar-collapse {
             animation: fadeIn 0.5s ease-in-out;
         }
+
+        .medsos-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin: 0 30px;
+        }
+
+        .label {
+            display: block;
+            margin-top: 5px;
+        }
     </style>
 </head>
 
@@ -264,55 +279,48 @@
             </div>
         </div>
 
-        <!-- Contact Section -->
-        <div id="contact" class="container">
-            <h2>Contact Me</h2>
-            <hr class="bg-muted">
-            <p class="text-center my-5">Feel free to reach out to me via the following channels:</p>
-            <div class="form-row jutify-content-evenly">
-                <div class="col-md-6">
-                    <form action="" method="post">
-                        <div class="form-group mt-1">
-                            <label for="name" class="text-muted">Name*</label>
-                            <input type="text" name="name" id="name" class="form-control" placeholder="Your name"
-                                required>
-                        </div>
-                        <div class="form-group mt-1">
-                            <label for="email" class="text-muted">Email*</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Your email"
-                                required>
-                        </div>
-                        <div class="form-group mt-1">
-                            <label for="message" class="text-muted">Message*</label>
-                            <textarea name="message" id="message" cols="30" rows="10" class="form-control"
-                                placeholder="Your message here..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-outline-primary container">Submit</button>
-                    </form>
-                </div>
-                <div class="col-md-6 text-muted">
-                    <div class="mt-5">
-                        <h3 class="text-dark">Yunior Alamsyah Kuba</h3>
-                        <p>Web Developer</p>
-                    </div>
-                    <div class="mt-5">
-                        <h3>Phone</h3>
-                        <p>+62 812-1677-8251</p>
-                    </div>
-                    <div class="mt-5">
-                        <h3>Email</h3>
-                        <p>alamyu7603@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Back to Top Button -->
         <button id="backToTopBtn" class="btn btn-primary" title="Back to Top">&#8593;</button>
     </main>
 
     <!-- Footer Section -->
     <footer class="footer text-center">
+        <!-- Contact Section -->
+        <div id="contact" class="container">
+            <h2>Contact Me</h2>
+            <hr class="bg-muted">
+            <p class="text-center my-5">Feel free to reach out to me via the following channels:</p>
+            <div class="text-muted text-center">
+                <div>
+                    <h3 class="text-dark">Yunior Alamsyah Kuba</h3>
+                    <p>Web Developer</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-2">
+                        <h3>Phone</h3>
+                        <p>+62 812-1677-8251</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>Email</h3>
+                        <p>alamyu7603@gmail.com</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <a href="" class="medsos-link">
+                        <i class="fa-brands fa-instagram icon" alt="Instagram"></i>
+                        <span class="label">Instagram</span>
+                    </a>
+                    <a href="" class="medsos-link">
+                        <i class="fa-brands fa-tiktok icon" alt="TikTok"></i>
+                        <span class="label">TikTok</span>
+                    </a>
+                    <a href="" class="medsos-link">
+                        <i class="fa-brands fa-linkedin icon" alt="LinkedIn"></i>
+                        <span class="label">LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
         <p>&copy; 2024 Yunior Alamsyah Kuba. All rights reserved.</p>
     </footer>
 
